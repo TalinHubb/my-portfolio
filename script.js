@@ -8,15 +8,15 @@ demo:"#"
 },
 
 {
-title:"Portfolio Website",
+title:"This Portfolio Website",
 description:"Responsive developer portfolio using HTML, CSS and JS.",
-github:"#",
-demo:"#"
+github:"https://github.com/TalinHubb/MyPortfolio",
+demo:"https://talinhubb.github.io/MyPortfolio/"
 },
 
 {
-title:"Automation Tool",
-description:"Small tool that automates repetitive tasks.",
+title:"LINE Translator Bot",
+description:"Completely free to use LINE bot that translates messages in real-time, using Google's translation API, and deployed on Render.",
 github:"#",
 demo:"#"
 }
@@ -36,7 +36,7 @@ card.innerHTML = `
 
 <div class="project-links">
 <a href="${project.github}">GitHub</a>
-<a href="${project.demo}">Demo</a>
+<a href="${project.demo}">Try Me</a>
 </div>
 `
 
