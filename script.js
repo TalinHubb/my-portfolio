@@ -41,8 +41,8 @@ card.innerHTML = `
 <p>${project.description}</p>
 
 <div class="project-links">
-<a href="${project.github}">${button1}</a>
-<a href="${project.demo}">${button2}</a>
+<a href="${project.github}">${project.button1}</a>
+<a href="${project.demo}">${project.button2}</a>
 </div>
 `
 
