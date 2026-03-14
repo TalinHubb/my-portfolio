@@ -16,9 +16,9 @@ demo:"https://talinhubb.github.io/MyPortfolio/"
 
 {
 title:"LINE Translator Bot",
-description:"Completely free to use LINE bot that translates messages in real-time, using Google's translation API, and deployed on Render.",
-github:"#",
-demo:"#"
+description:"Completely free to use LINE bot that translates messages with one click, using Google's translation API, and deployed on Render.",
+github:"https://lin.ee/QFj2gHg",
+demo:"https://line-translator-1-i242.onrender.com"
 }
 
 ]
