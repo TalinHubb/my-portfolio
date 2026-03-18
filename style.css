@@ -33,8 +33,9 @@ color:white;
 }
 
 profile-pic{
-width:150px;
-align-self:center;
+display:block;
+margin:0 auto;
+width:20%;
 }
 
 .hero{
