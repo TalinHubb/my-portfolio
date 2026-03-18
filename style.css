@@ -32,6 +32,11 @@ text-decoration:none;
 color:white;
 }
 
+profile-pic{
+width:150px;
+align-self:center;
+}
+
 .hero{
 text-align:center;
 padding:120px 20px;
