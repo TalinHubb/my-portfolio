@@ -47,6 +47,10 @@ font-size:20px;
 opacity:.8;
 }
 
+.hero li{
+    font-size:20px;
+}
+
 .hero-buttons{
 margin-top:25px;
 }
