@@ -1,11 +1,11 @@
 const projects = [
 
 {
-title:"Evony Keep Tracker",
-description:"Tracks building progress and upgrade goals for Evony.",
-github:"#",
-demo:"#",
-button1:"GitHub",
+title:"LINE Translator Bot",
+description:"Completely free to use LINE bot that translates messages with one click, using Google's translation API, and deployed on Render.",
+github:"https://lin.ee/QFj2gHg",
+demo:"https://line-translator-1-i242.onrender.com",
+button1:"Add the Bot",
 button2:"Live Demo"
 },
 
@@ -19,12 +19,12 @@ button2:"This Site"
 },
 
 {
-title:"LINE Translator Bot",
-description:"Completely free to use LINE bot that translates messages with one click, using Google's translation API, and deployed on Render.",
-github:"https://lin.ee/QFj2gHg",
-demo:"https://line-translator-1-i242.onrender.com",
-button1:"Add the Bot",
-button2:"Live Demo"
+title:"Evony Keep Tracker",
+description:"Tracks building progress and upgrade goals for Evony.",
+github:"#",
+demo:"#",
+button1:"Not Yet",
+button2:"Almost There"
 }
 
 ]
