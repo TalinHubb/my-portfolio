@@ -10,21 +10,21 @@ button2:"Live Demo"
 },
 
 {
-title:"This Portfolio Website",
-description:"Responsive developer portfolio using HTML, CSS and JS.",
-github:"https://github.com/TalinHubb/my-portfolio",
-demo:"https://talinhubb.github.io/my-portfolio/",
-button1:"GitHub",
-button2:"This Site"
-},
-
-{
 title:"Evony Keep Tracker",
 description:"Tracks building progress and upgrade goals for Evony.",
 github:"https://https://github.com/TalinHubb/building_buddy",
 demo:"https://talinhubb.github.io/building_buddy/",
 button1:"GitHub",
 button2:"Live Product"
+},
+
+{
+title:"This Portfolio Website",
+description:"Responsive developer portfolio using HTML, CSS and JS.",
+github:"https://github.com/TalinHubb/my-portfolio",
+demo:"https://talinhubb.github.io/my-portfolio/",
+button1:"GitHub",
+button2:"This Site"
 }
 
 ]
