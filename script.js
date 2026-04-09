@@ -21,10 +21,10 @@ button2:"This Site"
 {
 title:"Evony Keep Tracker",
 description:"Tracks building progress and upgrade goals for Evony.",
-github:"#",
-demo:"#",
-button1:"Not Yet",
-button2:"Almost There"
+github:"https://https://github.com/TalinHubb/building_buddy",
+demo:"https://talinhubb.github.io/building_buddy/",
+button1:"GitHub",
+button2:"Live Product"
 }
 
 ]
