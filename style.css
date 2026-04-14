@@ -136,3 +136,15 @@ padding:30px;
 background:#020617;
 margin-top:40px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+}

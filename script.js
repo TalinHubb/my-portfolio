@@ -3,28 +3,28 @@ const projects = [
 {
 title:"LINE Translator Bot",
 description:"Completely free to use LINE bot that translates messages with one click, using Google's translation API, and deployed on Render.",
-github:"https://lin.ee/QFj2gHg",
-demo:"https://line-translator-1-i242.onrender.com",
-button1:"Add the Bot",
-button2:"Live Demo"
+github:"https://line.me/R/ti/g/-hB4JpQALq",
+demo:"translator.html",
+button1:"Test Group",
+button2:"More Info"
 },
 
 {
 title:"Evony Keep Tracker",
 description:"Tracks building progress and upgrade goals for Evony.",
-github:"https://https://github.com/TalinHubb/building_buddy",
-demo:"https://talinhubb.github.io/building_buddy/",
-button1:"GitHub",
-button2:"Live Product"
+github:"https://talinhubb.github.io/building_buddy/",
+demo:"building_buddy.html",
+button1:"Live Product",
+button2:"More Info"
 },
 
 {
 title:"This Portfolio Website",
 description:"Responsive developer portfolio using HTML, CSS and JS.",
 github:"https://github.com/TalinHubb/my-portfolio",
-demo:"https://talinhubb.github.io/my-portfolio/",
+demo:"portfolio.html",
 button1:"GitHub",
-button2:"This Site"
+button2:"More Info"
 }
 
 ]
