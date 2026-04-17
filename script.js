@@ -29,29 +29,82 @@ button2:"More Info"
 
 ]
 
-const container = document.getElementById("project-container")
+function initProjects() {
+    const container = document.getElementById("project-container");
 
-projects.forEach(project => {
+    // 🚨 Prevent crashes on pages without projects section
+    if (!container || typeof projects === "undefined") return;
 
-const card = document.createElement("div")
-card.classList.add("project-card")
+    projects.forEach(project => {
 
-let buttons = ""
+        const card = document.createElement("div");
+        card.classList.add("project-card");
 
-if(project.github){
-buttons += `<a href="${project.github}">${project.button1 || "GitHub"}</a>`
+        const buttons = buildButtons(project);
+
+        card.innerHTML = `
+            <h3>${project.title}</h3>
+            <p>${project.description}</p>
+            <div class="project-links">
+                ${buttons}
+            </div>
+        `;
+
+        container.appendChild(card);
+    });
 }
 
-if(project.demo){
-buttons += `<a href="${project.demo}">${project.button2 || "Demo"}</a>`
+
+// 🔥 Cleaner button builder (separation of concerns)
+function buildButtons(project) {
+    let buttons = "";
+
+    if (project.github) {
+        buttons += `<a href="${project.github}" target="_blank">
+                        ${project.button1 || "GitHub"}
+                    </a>`;
+    }
+
+    if (project.demo) {
+        buttons += `<a href="${project.demo}" target="_blank">
+                        ${project.button2 || "Demo"}
+                    </a>`;
+    }
+
+    return buttons;
 }
 
-card.innerHTML = `
-<h3>${project.title}</h3>
-<p>${project.description}</p>
-<div class="project-links">${buttons}</div>
-`
 
-container.appendChild(card)
+// 🚀 Run everything safely after page loads
+document.addEventListener("DOMContentLoaded", () => {
+    initProjects();
+});
 
-})
+document.addEventListener("DOMContentLoaded", () => {
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+if (!lightbox || !lightboxImg) return;
+
+const images = document.querySelectorAll(".zoomable");
+
+console.log("Zoomable images found:", images.length);
+
+images.forEach(img => {
+    img.style.cursor = "zoom-in";
+
+    img.addEventListener("click", () => {
+        lightbox.classList.add("show");
+        lightboxImg.src = img.src;
+    });
+});
+
+lightbox.addEventListener("click", () => {
+    lightbox.classList.remove("show");
+    lightboxImg.src = "";
+});
+
+});
+
+console.log(document.querySelectorAll(".zoomable"));

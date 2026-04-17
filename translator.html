@@ -2,19 +2,28 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Translation Bot</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<section>
-<h1>Group Translation Bot</h1>
+<section class="project-hero">
+    <div class="hero-text">
+        <h1>Group Translation Bot</h1>
+        <p>
+            A multi-purpose translation bot designed to improve communication in group chats
+            without clutter or spam.
+        </p>
+    </div>
 
-<p>
-A multi-purpose translation bot designed to improve communication in group chats
-without creating clutter or unnecessary spam.
-</p>
+    <div class="hero-image">
+        <img src="pictures\Ghosty.png" alt="Ghosty" class="zoomable">
+    </div>
+</section>
+
+<section class="content">
 
 <h2>Problem</h2>
 <p>
@@ -29,36 +38,71 @@ conversations readable. It also supports group-based language preferences, makin
 it useful for both communication and language learning.
 </p>
 
+</section>
+
+<!-- 🔥 FEATURE BLOCK 1 -->
+<section class="feature-block">
+    <div class="text">
+        <h3>Clean Chat Integration</h3>
+        <p>
+            The bot integrates directly into group chats and only translates when needed,
+            keeping conversations clean and readable.
+        </p>
+    </div>
+
+    <img src="pictures\chat-example.jpg" alt="Chat Example" class="zoomable">
+</section>
+
+<!-- 🔥 FEATURE BLOCK 2 (reverse layout automatically via CSS) -->
+<section class="feature-block">
+    <div class="text">
+        <h3>Instant Translation Output</h3>
+        <p>
+            Messages are translated instantly and displayed in a structured format
+            to avoid clutter and duplication.
+        </p>
+    </div>
+
+    <img src="pictures\translation-result.jpg" alt="Translation Output" class="zoomable">
+</section>
+
+<section class="content">
+
 <h2>Key Features</h2>
 <ul>
 <li>Selective message translation</li>
 <li>Group-specific language settings</li>
-<li>Pre-translation optimization to reduce API calls</li>
-<li>Clean, readable output format</li>
-<li>Useful for both group chats and solo language practice</li>
+<li>Pre-translation optimization</li>
+<li>Clean output formatting</li>
+<li>Language learning support</li>
 </ul>
 
 <h2>Tech Stack</h2>
-<p>
-JavaScript, Node.js, API integration, PostgreSQL
-</p>
+<p>JavaScript, Node.js, API integration, PostgreSQL</p>
 
 <h2>Challenges</h2>
 <ul>
-<li>Reducing API usage while maintaining fast response times</li>
-<li>Designing group-based language storage</li>
-<li>Balancing performance with scalability</li>
+<li>Reducing API usage while maintaining performance</li>
+<li>Designing scalable group language storage</li>
+<li>Balancing speed and accuracy</li>
 </ul>
 
 <h2>Future Improvements</h2>
 <ul>
 <li>Smarter caching system</li>
-<li>Improved UI for translation controls</li>
-<li>Expanded language learning features</li>
+<li>Better UI controls for translation settings</li>
+<li>Expanded language learning tools</li>
 </ul>
 
 <a href="index.html">← Back to Portfolio</a>
+
 </section>
+
+<div id="lightbox" class="lightbox">
+    <img id="lightbox-img" src="" alt="Preview">
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
