@@ -181,7 +181,7 @@ margin-top:40px;
 
 .feature-block img {
     width: 100%;
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 12px;
 }
 
@@ -199,7 +199,7 @@ margin-top:40px;
     }
 
     .feature-block img {
-        max-width: 100%;
+        max-width: 80%;
     }
 
     .hero-image img {
