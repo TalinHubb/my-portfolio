@@ -226,6 +226,19 @@ margin-top:40px;
     margin: 40px 0;
 }
 
+.back-link a {
+    color: #38f845;
+    text-decoration: none;
+}
+
+.back-link a:visited {
+    color: #38f845;
+}
+
+.back-link a:hover {
+    color: #bacc2e;
+}
+
 /* 📱 Mobile */
 @media (max-width: 500px) {
     .project-hero,
