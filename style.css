@@ -138,7 +138,7 @@ background:#020617;
 margin-top:40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .hero {
         flex-direction: column;
         text-align: center;
@@ -227,7 +227,7 @@ margin-top:40px;
 }
 
 /* 📱 Mobile */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .project-hero,
     .feature-block {
         flex-direction: column;
