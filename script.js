@@ -10,7 +10,7 @@ button2:"More Info"
 },
 
 {
-title:"Evony Keep Tracker",
+title:"Building Buddy",
 description:"Tracks building progress and upgrade goals for Evony.",
 github:"https://talinhubb.github.io/building_buddy/",
 demo:"building_buddy.html",
